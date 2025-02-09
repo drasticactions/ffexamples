@@ -60,29 +60,20 @@ var key = Console.Read();
 
 await atWebProtocol.StopSubscriptionAsync();
 
-async Task HandleMessageAsync(SubscribeRepoMessage message)
+/// <summary>
+/// Task Extensions.
+/// </summary>
+#pragma warning disable SA1649 // File name should match first type name
+internal static class TaskExtensions
+#pragma warning restore SA1649 // File name should match first type name
 {
-    if (message.Commit is null)
-    {
-        return;
-    }
-
-    var orgId = message.Commit.Repo;
-
-    if (orgId is null)
-    {
-        return;
-    }
-
-    if (message.Record is not null)
-    {
-        Console.WriteLine($"Record: {message.Record.ToJson()}");
-    }
-}
-
-public static class TaskExtensions
-{
-    public static void FireAndForget(this Task task, Action<Exception> errorHandler = null)
+    /// <summary>
+    /// Fire and Forget a Task.
+    /// </summary>
+    /// <param name="task">The task.</param>
+    /// <param name="errorHandler">An error handler.</param>
+    /// <exception cref="ArgumentNullException">Thrown if task is null.</exception>
+    public static void FireAndForget(this Task task, Action<Exception>? errorHandler = null)
     {
         if (task == null)
         {
@@ -96,7 +87,8 @@ public static class TaskExtensions
             {
                 errorHandler(t.Exception);
             }
-        }, TaskContinuationOptions.OnlyOnFaulted);
+        },
+            TaskContinuationOptions.OnlyOnFaulted);
 
         // Avoiding warning about not awaiting the fire-and-forget task.
         // However, since the method is intended to fire and forget, we don't actually await it.
