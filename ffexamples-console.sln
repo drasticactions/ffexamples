@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{B9570CCD-B988-4BF1-A6C3-ED4DCBE1D25B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomTypes", "samples\CustomTypes\CustomTypes.csproj", "{F7912951-1249-45A3-9FB7-019ECEE37AE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Firehose", "samples\Firehose\Firehose.csproj", "{2A785A89-583F-4AC0-9D30-1A5E0D2FB443}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jetstream", "samples\Jetstream\Jetstream.csproj", "{6D320772-7BF3-4677-8599-6BD42C360DB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth", "samples\OAuth\OAuth.csproj", "{A1AC8E5F-0528-470A-B1D3-92C732CD6C60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordAuth", "samples\PasswordAuth\PasswordAuth.csproj", "{BACFF4B1-9233-4ABE-9257-8CA1EAD3F58E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandboxApp", "samples\SandboxApp\SandboxApp.csproj", "{2A1D33F8-2C0D-403B-895C-CD6071CE8F95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7912951-1249-45A3-9FB7-019ECEE37AE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7912951-1249-45A3-9FB7-019ECEE37AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7912951-1249-45A3-9FB7-019ECEE37AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7912951-1249-45A3-9FB7-019ECEE37AE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A785A89-583F-4AC0-9D30-1A5E0D2FB443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A785A89-583F-4AC0-9D30-1A5E0D2FB443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A785A89-583F-4AC0-9D30-1A5E0D2FB443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A785A89-583F-4AC0-9D30-1A5E0D2FB443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D320772-7BF3-4677-8599-6BD42C360DB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D320772-7BF3-4677-8599-6BD42C360DB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D320772-7BF3-4677-8599-6BD42C360DB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D320772-7BF3-4677-8599-6BD42C360DB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1AC8E5F-0528-470A-B1D3-92C732CD6C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1AC8E5F-0528-470A-B1D3-92C732CD6C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1AC8E5F-0528-470A-B1D3-92C732CD6C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1AC8E5F-0528-470A-B1D3-92C732CD6C60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BACFF4B1-9233-4ABE-9257-8CA1EAD3F58E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BACFF4B1-9233-4ABE-9257-8CA1EAD3F58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BACFF4B1-9233-4ABE-9257-8CA1EAD3F58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BACFF4B1-9233-4ABE-9257-8CA1EAD3F58E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A1D33F8-2C0D-403B-895C-CD6071CE8F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A1D33F8-2C0D-403B-895C-CD6071CE8F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A1D33F8-2C0D-403B-895C-CD6071CE8F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A1D33F8-2C0D-403B-895C-CD6071CE8F95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7912951-1249-45A3-9FB7-019ECEE37AE4} = {B9570CCD-B988-4BF1-A6C3-ED4DCBE1D25B}
+		{2A785A89-583F-4AC0-9D30-1A5E0D2FB443} = {B9570CCD-B988-4BF1-A6C3-ED4DCBE1D25B}
+		{6D320772-7BF3-4677-8599-6BD42C360DB8} = {B9570CCD-B988-4BF1-A6C3-ED4DCBE1D25B}
+		{A1AC8E5F-0528-470A-B1D3-92C732CD6C60} = {B9570CCD-B988-4BF1-A6C3-ED4DCBE1D25B}
+		{BACFF4B1-9233-4ABE-9257-8CA1EAD3F58E} = {B9570CCD-B988-4BF1-A6C3-ED4DCBE1D25B}
+		{2A1D33F8-2C0D-403B-895C-CD6071CE8F95} = {B9570CCD-B988-4BF1-A6C3-ED4DCBE1D25B}
+	EndGlobalSection
+EndGlobal

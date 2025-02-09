@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{55763B4B-B702-4533-AA9B-B8C38F9F862D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FishyFlipSite", "FishyFlipSite", "{5CA14AE9-181D-448B-840B-FD2E8D0816D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FishyFlipSite", "samples\FishyFlipSite\FishyFlipSite\FishyFlipSite.csproj", "{2E0FF1AD-9582-49CC-8637-09478EDF6516}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E0FF1AD-9582-49CC-8637-09478EDF6516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E0FF1AD-9582-49CC-8637-09478EDF6516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E0FF1AD-9582-49CC-8637-09478EDF6516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E0FF1AD-9582-49CC-8637-09478EDF6516}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5CA14AE9-181D-448B-840B-FD2E8D0816D9} = {55763B4B-B702-4533-AA9B-B8C38F9F862D}
+		{2E0FF1AD-9582-49CC-8637-09478EDF6516} = {5CA14AE9-181D-448B-840B-FD2E8D0816D9}
+	EndGlobalSection
+EndGlobal
